@@ -1,0 +1,48 @@
+.command__list .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.command__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.command__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.command__item {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.command__title {
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.command__title-name {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text__command {
+  text-align: center;
+}
+
+.command__item-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section__command {
+  background: #e5e5e5;
+  padding-top: 0;
+}
